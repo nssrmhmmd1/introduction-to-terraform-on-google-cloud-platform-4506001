@@ -1,5 +1,5 @@
 resource "google_compute_network" "Appnet2" {
-  name                    = "Appnet3"
+  name                    = "Appnet2"
   auto_create_subnetworks = false
 }
 
