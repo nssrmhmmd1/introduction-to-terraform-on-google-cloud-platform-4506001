@@ -14,10 +14,10 @@ module "staging" {
   network_name = "staging"
 }
 
-module "Prod" {
+module "prod" {
   source       = "./modules/blog"
   project_id   = var.project_id
   region       = var.region
-  app_name     = "Prod-blog"
-  network_name = "Prod"
+  app_name     = "prod-blog"
+  network_name = "prod"
 }

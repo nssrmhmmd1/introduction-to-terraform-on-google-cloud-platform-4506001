@@ -1,3 +1,10 @@
+data "google_compute_image" "ubuntu" {
+  most_recent = true
+  project     = "ubuntu-os-cloud"
+  family      = "ubuntu-2204-lts"
+}
+
+
 resource "google_compute_network" "appnet2" {
   name                    = var.network_name
   auto_create_subnetworks = false
