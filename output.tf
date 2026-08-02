@@ -8,7 +8,7 @@ output  "staging-ip" {
     value = module.staging.public_ip
 }
 
-output  "Prod-ip" {
+output  "prod-ip" {
 
-    value = module.Prod.public_ip
+    value = module.prod.public_ip
 }
